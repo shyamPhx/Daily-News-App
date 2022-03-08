@@ -1,0 +1,28 @@
+.descriptionText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+
+.newsCardImg {
+  height: 225px !important;
+}
+
+.titleText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.badgeStyle {
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  right: 0;
+}
